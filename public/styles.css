@@ -55,3 +55,8 @@ form button {
   width: 250px;
   font-size: 18px;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: grey;
+  opacity: 1; /* Firefox */
+}
